@@ -1,3 +1,4 @@
+var fs = require('fs');
 var express = require('express');
 var filename = "index.html";
 var app = express.createServer(express.logger());
